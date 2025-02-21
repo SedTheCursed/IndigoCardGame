@@ -1,0 +1,35 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Indigo Card Game/*
+!/Indigo Card Game/task/
+/Indigo Card Game/task/*
+!/Indigo Card Game/task/src
+
+# Project exclude paths
+/Topics/Call stack/Follow the call stack/out/
+/Topics/Call stack/Follow the call stack/out/production/classes/
+/Topics/Constructors/Init usage/out/
+/Topics/Constructors/Init usage/out/production/classes/
+/Topics/Introduction to generic programming/Learning on mistakes/out/
+/Topics/Introduction to generic programming/Learning on mistakes/out/production/classes/
+/Topics/Scope functions  let, run, and with/Names of poets/out/
+/Topics/Scope functions  let, run, and with/Names of poets/out/production/classes/
+/Topics/Standard input with Java Scanner/Read and print/out/
+/Topics/Standard input with Java Scanner/Read and print/out/production/classes/
+/Topics/String basics/Reverse a user-input string/out/
+/Topics/String basics/Reverse a user-input string/out/production/classes/
+/Topics/String templates/Greeting with birth year calculation/out/
+/Topics/String templates/Greeting with birth year calculation/out/production/classes/
+/Topics/Type conversion/Floating-point to integer conversion/out/
+/Topics/Type conversion/Floating-point to integer conversion/out/production/classes/
+/Topics/
