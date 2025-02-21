@@ -23,7 +23,6 @@ class ComputerPlayer: Player() {
      * @return Played card
      */
     override fun play(): Card  {
-        println(hand.joinToString(" "))
         val card = strategy?.execute(hand) ?: hand.first()
         println("Computer plays %s".format(card.toString()))
         hand.remove(card)
